@@ -1,0 +1,468 @@
+[0.000000] (-) TimerEvent: {}
+[0.000233] (bringup) JobQueued: {'identifier': 'bringup', 'dependencies': OrderedDict()}
+[0.000415] (robot_interfaces) JobQueued: {'identifier': 'robot_interfaces', 'dependencies': OrderedDict()}
+[0.000934] (rpi_tests) JobQueued: {'identifier': 'rpi_tests', 'dependencies': OrderedDict({'robot_interfaces': '/home/shayan/rpi_ws/install/robot_interfaces'})}
+[0.000962] (robot_interfaces) JobStarted: {'identifier': 'robot_interfaces'}
+[0.006782] (bringup) JobStarted: {'identifier': 'bringup'}
+[0.011672] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'cmake'}
+[0.012283] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/shayan/rpi_ws/src/robot_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/shayan/rpi_ws/install/robot_interfaces'], 'cwd': '/home/shayan/rpi_ws/build/robot_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shayan', 'SSH_CLIENT': '192.168.1.73 44584 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/shayan/rpi_ws/install/robot_interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/shayan', 'OLDPWD': '/home/shayan/rpi_ws/install', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/shayan/rpi_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shayan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/shayan/rpi_ws/install/bringup:/home/shayan/rpi_ws/install/rpi_tests:/home/shayan/rpi_ws/install/robot_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/shayan/rpi_ws/build/robot_interfaces', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.73 44584 192.168.1.77 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shayan/rpi_ws/install/rpi_tests/lib/python3.12/site-packages:/home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/shayan/rpi_ws/install/bringup:/home/shayan/rpi_ws/install/robot_interfaces:/home/shayan/rpi_ws/install/rpi_tests:/opt/ros/jazzy'}), 'shell': False}
+[0.017522] (bringup) JobProgress: {'identifier': 'bringup', 'progress': 'cmake'}
+[0.018086] (bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/shayan/rpi_ws/src/bringup', '-DCMAKE_INSTALL_PREFIX=/home/shayan/rpi_ws/install/bringup'], 'cwd': '/home/shayan/rpi_ws/build/bringup', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shayan', 'SSH_CLIENT': '192.168.1.73 44584 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/shayan/rpi_ws/install/robot_interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/shayan', 'OLDPWD': '/home/shayan/rpi_ws/install', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/shayan/rpi_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shayan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/shayan/rpi_ws/install/bringup:/home/shayan/rpi_ws/install/rpi_tests:/home/shayan/rpi_ws/install/robot_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/shayan/rpi_ws/build/bringup', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.73 44584 192.168.1.77 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shayan/rpi_ws/install/rpi_tests/lib/python3.12/site-packages:/home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/shayan/rpi_ws/install/bringup:/home/shayan/rpi_ws/install/robot_interfaces:/home/shayan/rpi_ws/install/rpi_tests:/opt/ros/jazzy'}), 'shell': False}
+[0.099885] (-) TimerEvent: {}
+[0.121797] (robot_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.124120] (bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.200009] (-) TimerEvent: {}
+[0.232203] (robot_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.235257] (bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.259079] (robot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.261482] (bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300111] (-) TimerEvent: {}
+[0.401433] (-) TimerEvent: {}
+[0.423511] (robot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.423762] (bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.438653] (robot_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.438931] (bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.439089] (robot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.439209] (bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.439583] (robot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.439743] (bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.453057] (bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.453333] (robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.501406] (-) TimerEvent: {}
+[0.602053] (-) TimerEvent: {}
+[0.635404] (robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.635638] (bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.650637] (robot_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.650940] (bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.651105] (robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.651418] (bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.651790] (robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.652114] (bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.654550] (robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.654704] (bringup) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.702145] (-) TimerEvent: {}
+[0.802711] (-) TimerEvent: {}
+[0.888296] (robot_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.888603] (bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.902791] (-) TimerEvent: {}
+[1.003198] (-) TimerEvent: {}
+[1.054190] (robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.060517] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.103293] (-) TimerEvent: {}
+[1.117219] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.184532] (robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.203459] (-) TimerEvent: {}
+[1.230423] (bringup) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[1.236697] (bringup) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.241862] (bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/shayan/rpi_ws/build/bringup\n'}
+[1.261703] (bringup) CommandEnded: {'returncode': 0}
+[1.262190] (bringup) JobProgress: {'identifier': 'bringup', 'progress': 'build'}
+[1.262226] (bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shayan/rpi_ws/build/bringup', '--', '-j4', '-l4'], 'cwd': '/home/shayan/rpi_ws/build/bringup', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shayan', 'SSH_CLIENT': '192.168.1.73 44584 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/shayan/rpi_ws/install/robot_interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/shayan', 'OLDPWD': '/home/shayan/rpi_ws/install', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/shayan/rpi_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shayan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/shayan/rpi_ws/install/bringup:/home/shayan/rpi_ws/install/rpi_tests:/home/shayan/rpi_ws/install/robot_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/shayan/rpi_ws/build/bringup', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.73 44584 192.168.1.77 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shayan/rpi_ws/install/rpi_tests/lib/python3.12/site-packages:/home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/shayan/rpi_ws/install/bringup:/home/shayan/rpi_ws/install/robot_interfaces:/home/shayan/rpi_ws/install/rpi_tests:/opt/ros/jazzy'}), 'shell': False}
+[1.304972] (-) TimerEvent: {}
+[1.360627] (bringup) CommandEnded: {'returncode': 0}
+[1.362368] (bringup) JobProgress: {'identifier': 'bringup', 'progress': 'install'}
+[1.385232] (bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shayan/rpi_ws/build/bringup'], 'cwd': '/home/shayan/rpi_ws/build/bringup', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shayan', 'SSH_CLIENT': '192.168.1.73 44584 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/shayan/rpi_ws/install/robot_interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/shayan', 'OLDPWD': '/home/shayan/rpi_ws/install', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/shayan/rpi_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shayan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/shayan/rpi_ws/install/bringup:/home/shayan/rpi_ws/install/rpi_tests:/home/shayan/rpi_ws/install/robot_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/shayan/rpi_ws/build/bringup', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.73 44584 192.168.1.77 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shayan/rpi_ws/install/rpi_tests/lib/python3.12/site-packages:/home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/shayan/rpi_ws/install/bringup:/home/shayan/rpi_ws/install/robot_interfaces:/home/shayan/rpi_ws/install/rpi_tests:/opt/ros/jazzy'}), 'shell': False}
+[1.402390] (bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.403375] (bringup) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/launch\n'}
+[1.403623] (bringup) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/launch/test_bringup.launch.xml\n'}
+[1.405153] (bringup) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/bringup/share/ament_index/resource_index/package_run_dependencies/bringup\n'}
+[1.405652] (-) TimerEvent: {}
+[1.406750] (bringup) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/bringup/share/ament_index/resource_index/parent_prefix_path/bringup\n'}
+[1.407106] (bringup) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/environment/ament_prefix_path.sh\n'}
+[1.407980] (bringup) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/environment/ament_prefix_path.dsv\n'}
+[1.408998] (bringup) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/environment/path.sh\n'}
+[1.409855] (bringup) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/environment/path.dsv\n'}
+[1.410725] (bringup) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/local_setup.bash\n'}
+[1.411497] (bringup) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/local_setup.sh\n'}
+[1.412173] (bringup) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/local_setup.zsh\n'}
+[1.412720] (bringup) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/local_setup.dsv\n'}
+[1.413313] (bringup) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/package.dsv\n'}
+[1.413994] (bringup) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/bringup/share/ament_index/resource_index/packages/bringup\n'}
+[1.414944] (bringup) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/cmake/bringupConfig.cmake\n'}
+[1.415555] (bringup) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/cmake/bringupConfig-version.cmake\n'}
+[1.415731] (bringup) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/package.xml\n'}
+[1.420431] (bringup) CommandEnded: {'returncode': 0}
+[1.458906] (bringup) JobEnded: {'identifier': 'bringup', 'rc': 0}
+[1.506067] (-) TimerEvent: {}
+[1.608194] (-) TimerEvent: {}
+[1.708634] (-) TimerEvent: {}
+[1.810826] (-) TimerEvent: {}
+[1.911344] (-) TimerEvent: {}
+[2.012035] (-) TimerEvent: {}
+[2.112499] (-) TimerEvent: {}
+[2.213728] (-) TimerEvent: {}
+[2.315540] (-) TimerEvent: {}
+[2.416023] (-) TimerEvent: {}
+[2.516577] (-) TimerEvent: {}
+[2.535958] (robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.616707] (-) TimerEvent: {}
+[2.717150] (-) TimerEvent: {}
+[2.817521] (-) TimerEvent: {}
+[2.917905] (-) TimerEvent: {}
+[3.018287] (-) TimerEvent: {}
+[3.118683] (-) TimerEvent: {}
+[3.219101] (-) TimerEvent: {}
+[3.287970] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.319198] (-) TimerEvent: {}
+[3.419572] (-) TimerEvent: {}
+[3.522588] (-) TimerEvent: {}
+[3.623264] (-) TimerEvent: {}
+[3.724278] (-) TimerEvent: {}
+[3.826491] (-) TimerEvent: {}
+[3.927013] (-) TimerEvent: {}
+[4.028382] (-) TimerEvent: {}
+[4.128704] (-) TimerEvent: {}
+[4.229046] (-) TimerEvent: {}
+[4.329409] (-) TimerEvent: {}
+[4.362653] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.365604] (robot_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.429502] (-) TimerEvent: {}
+[4.529825] (-) TimerEvent: {}
+[4.565206] (robot_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[4.629940] (-) TimerEvent: {}
+[4.730281] (-) TimerEvent: {}
+[4.830618] (-) TimerEvent: {}
+[4.930937] (-) TimerEvent: {}
+[5.031260] (-) TimerEvent: {}
+[5.131620] (-) TimerEvent: {}
+[5.231984] (-) TimerEvent: {}
+[5.239189] (robot_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[5.330722] (robot_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[5.332046] (-) TimerEvent: {}
+[5.342135] (robot_interfaces) StdoutLine: {'line': b'-- Configuring done (5.3s)\n'}
+[5.389810] (robot_interfaces) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[5.406645] (robot_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/shayan/rpi_ws/build/robot_interfaces\n'}
+[5.419122] (robot_interfaces) CommandEnded: {'returncode': 0}
+[5.419714] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'build'}
+[5.420018] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shayan/rpi_ws/build/robot_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/shayan/rpi_ws/build/robot_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shayan', 'SSH_CLIENT': '192.168.1.73 44584 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/shayan/rpi_ws/install/robot_interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/shayan', 'OLDPWD': '/home/shayan/rpi_ws/install', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/shayan/rpi_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shayan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/shayan/rpi_ws/install/bringup:/home/shayan/rpi_ws/install/rpi_tests:/home/shayan/rpi_ws/install/robot_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/shayan/rpi_ws/build/robot_interfaces', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.73 44584 192.168.1.77 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shayan/rpi_ws/install/rpi_tests/lib/python3.12/site-packages:/home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/shayan/rpi_ws/install/bringup:/home/shayan/rpi_ws/install/robot_interfaces:/home/shayan/rpi_ws/install/rpi_tests:/opt/ros/jazzy'}), 'shell': False}
+[5.432143] (-) TimerEvent: {}
+[5.504325] (robot_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[5.504632] (robot_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[5.518705] (robot_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_robot_interfaces\n'}
+[5.532279] (-) TimerEvent: {}
+[5.632816] (-) TimerEvent: {}
+[5.733192] (-) TimerEvent: {}
+[5.829258] (robot_interfaces) StdoutLine: {'line': b'[  5%] Built target robot_interfaces__rosidl_generator_type_description\n'}
+[5.834092] (-) TimerEvent: {}
+[5.850483] (robot_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.850957] (robot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[5.852569] (robot_interfaces) StdoutLine: {'line': b'creating robot_interfaces.egg-info\n'}
+[5.873889] (robot_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.887109] (robot_interfaces) StdoutLine: {'line': b'writing robot_interfaces.egg-info/PKG-INFO\n'}
+[5.887950] (robot_interfaces) StdoutLine: {'line': b'writing dependency_links to robot_interfaces.egg-info/dependency_links.txt\n'}
+[5.890405] (robot_interfaces) StdoutLine: {'line': b'writing top-level names to robot_interfaces.egg-info/top_level.txt\n'}
+[5.890746] (robot_interfaces) StdoutLine: {'line': b"writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'\n"}
+[5.929701] (robot_interfaces) StdoutLine: {'line': b'[ 11%] Built target robot_interfaces__rs\n'}
+[5.934229] (-) TimerEvent: {}
+[5.974210] (robot_interfaces) StdoutLine: {'line': b"reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'\n"}
+[5.975077] (robot_interfaces) StdoutLine: {'line': b"writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'\n"}
+[6.034345] (-) TimerEvent: {}
+[6.068466] (robot_interfaces) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_build_robot_interfaces_egg\n'}
+[6.134449] (-) TimerEvent: {}
+[6.234747] (-) TimerEvent: {}
+[6.331619] (robot_interfaces) StdoutLine: {'line': b'[ 11%] Built target robot_interfaces__cpp\n'}
+[6.334846] (-) TimerEvent: {}
+[6.373827] (robot_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/create_folder__description.c.o\x1b[0m\n'}
+[6.374189] (robot_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/create_folder__type_support.c.o\x1b[0m\n'}
+[6.374362] (robot_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/create_folder__functions.c.o\x1b[0m\n'}
+[6.434978] (-) TimerEvent: {}
+[6.496445] (robot_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library librobot_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[6.535109] (-) TimerEvent: {}
+[6.563241] (robot_interfaces) StdoutLine: {'line': b'[ 22%] Built target robot_interfaces__rosidl_generator_c\n'}
+[6.583396] (robot_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.583728] (robot_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.585517] (robot_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.585856] (robot_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.635391] (-) TimerEvent: {}
+[6.738549] (-) TimerEvent: {}
+[6.838938] (-) TimerEvent: {}
+[6.939290] (-) TimerEvent: {}
+[7.039764] (-) TimerEvent: {}
+[7.051440] (robot_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/srv/create_folder__type_support.cpp.o\x1b[0m\n'}
+[7.109380] (robot_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/create_folder__type_support.cpp.o\x1b[0m\n'}
+[7.122428] (robot_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/srv/detail/create_folder__type_support.c.o\x1b[0m\n'}
+[7.139951] (-) TimerEvent: {}
+[7.211218] (robot_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/srv/detail/create_folder__type_support_c.cpp.o\x1b[0m\n'}
+[7.240123] (-) TimerEvent: {}
+[7.261129] (robot_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking C shared library librobot_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.326682] (robot_interfaces) StdoutLine: {'line': b'[ 48%] Built target robot_interfaces__rosidl_typesupport_introspection_c\n'}
+[7.340267] (-) TimerEvent: {}
+[7.348148] (robot_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.441430] (-) TimerEvent: {}
+[7.542120] (-) TimerEvent: {}
+[7.643529] (-) TimerEvent: {}
+[7.744174] (-) TimerEvent: {}
+[7.847670] (-) TimerEvent: {}
+[7.895837] (robot_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/srv/create_folder__type_support.cpp.o\x1b[0m\n'}
+[7.947792] (-) TimerEvent: {}
+[7.954474] (robot_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.998677] (robot_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.048073] (-) TimerEvent: {}
+[8.092335] (robot_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.116613] (robot_interfaces) StdoutLine: {'line': b'[ 62%] Built target robot_interfaces__rosidl_typesupport_c\n'}
+[8.135007] (robot_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.148217] (-) TimerEvent: {}
+[8.191538] (robot_interfaces) StdoutLine: {'line': b'[ 65%] Built target robot_interfaces__rosidl_typesupport_cpp\n'}
+[8.248369] (-) TimerEvent: {}
+[8.283909] (robot_interfaces) StdoutLine: {'line': b'[ 65%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[8.348480] (-) TimerEvent: {}
+[8.395665] (robot_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.448607] (-) TimerEvent: {}
+[8.549018] (-) TimerEvent: {}
+[8.550164] (robot_interfaces) StdoutLine: {'line': b'[ 68%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[8.635023] (robot_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/srv/detail/dds_fastrtps/create_folder__type_support.cpp.o\x1b[0m\n'}
+[8.649143] (-) TimerEvent: {}
+[8.749512] (-) TimerEvent: {}
+[8.849807] (-) TimerEvent: {}
+[8.950098] (-) TimerEvent: {}
+[9.050419] (-) TimerEvent: {}
+[9.150733] (-) TimerEvent: {}
+[9.251048] (-) TimerEvent: {}
+[9.351369] (-) TimerEvent: {}
+[9.451648] (-) TimerEvent: {}
+[9.480045] (robot_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.551780] (-) TimerEvent: {}
+[9.626596] (robot_interfaces) StdoutLine: {'line': b'[ 74%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[9.651887] (-) TimerEvent: {}
+[9.660549] (robot_interfaces) StdoutLine: {'line': b'[ 74%] Built target robot_interfaces\n'}
+[9.694511] (robot_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.751995] (-) TimerEvent: {}
+[9.852297] (-) TimerEvent: {}
+[9.952567] (-) TimerEvent: {}
+[10.052817] (-) TimerEvent: {}
+[10.153110] (-) TimerEvent: {}
+[10.191586] (robot_interfaces) StdoutLine: {'line': b'[ 77%] Built target robot_interfaces__py\n'}
+[10.225764] (robot_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_create_folder_s.c.o\x1b[0m\n'}
+[10.253212] (-) TimerEvent: {}
+[10.353534] (-) TimerEvent: {}
+[10.449517] (robot_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library librobot_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[10.453622] (-) TimerEvent: {}
+[10.524995] (robot_interfaces) StdoutLine: {'line': b'[ 82%] Built target robot_interfaces__rosidl_generator_py\n'}
+[10.553747] (-) TimerEvent: {}
+[10.558724] (robot_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.559052] (robot_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.559190] (robot_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/robot_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.653922] (-) TimerEvent: {}
+[10.748436] (robot_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.748756] (robot_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.754046] (-) TimerEvent: {}
+[10.755985] (robot_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.803501] (robot_interfaces) StdoutLine: {'line': b'[100%] Built target robot_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[10.806251] (robot_interfaces) StdoutLine: {'line': b'[100%] Built target robot_interfaces_s__rosidl_typesupport_c\n'}
+[10.816070] (robot_interfaces) StdoutLine: {'line': b'[100%] Built target robot_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[10.835829] (robot_interfaces) CommandEnded: {'returncode': 0}
+[10.836624] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'install'}
+[10.836910] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shayan/rpi_ws/build/robot_interfaces'], 'cwd': '/home/shayan/rpi_ws/build/robot_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shayan', 'SSH_CLIENT': '192.168.1.73 44584 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/shayan/rpi_ws/install/robot_interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/shayan', 'OLDPWD': '/home/shayan/rpi_ws/install', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/shayan/rpi_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shayan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/shayan/rpi_ws/install/bringup:/home/shayan/rpi_ws/install/rpi_tests:/home/shayan/rpi_ws/install/robot_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/shayan/rpi_ws/build/robot_interfaces', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.73 44584 192.168.1.77 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shayan/rpi_ws/install/rpi_tests/lib/python3.12/site-packages:/home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/shayan/rpi_ws/install/bringup:/home/shayan/rpi_ws/install/robot_interfaces:/home/shayan/rpi_ws/install/rpi_tests:/opt/ros/jazzy'}), 'shell': False}
+[10.852481] (robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.852740] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces\n'}
+[10.853053] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/srv/CreateFolder.json\n'}
+[10.853232] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[10.853389] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[10.853512] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.853646] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv\n'}
+[10.853754] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail\n'}
+[10.853859] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__type_support.c\n'}
+[10.853962] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__description.c\n'}
+[10.854042] (-) TimerEvent: {}
+[10.854164] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__functions.c\n'}
+[10.854296] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__struct.h\n'}
+[10.854433] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__type_support.h\n'}
+[10.854546] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__functions.h\n'}
+[10.854725] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/create_folder.h\n'}
+[10.854957] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh\n'}
+[10.855121] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv\n'}
+[10.855514] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so\n'}
+[10.856117] (robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so" to ""\n'}
+[10.856234] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[10.856337] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[10.856424] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.856542] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv\n'}
+[10.856621] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail\n'}
+[10.856695] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__rosidl_typesupport_fastrtps_c.h\n'}
+[10.856797] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[10.857344] (robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.857473] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[10.857570] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[10.857694] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.857789] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv\n'}
+[10.857871] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail\n'}
+[10.857953] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__type_support.c\n'}
+[10.858069] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__rosidl_typesupport_introspection_c.h\n'}
+[10.858150] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[10.858525] (robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.858638] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so\n'}
+[10.859147] (robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[10.859270] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[10.859401] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[10.859484] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[10.859599] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv\n'}
+[10.859680] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail\n'}
+[10.859759] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__traits.hpp\n'}
+[10.859871] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__type_support.hpp\n'}
+[10.859948] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__builder.hpp\n'}
+[10.860052] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__struct.hpp\n'}
+[10.860154] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/create_folder.hpp\n'}
+[10.860282] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[10.860395] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[10.860492] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.860608] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv\n'}
+[10.860687] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail\n'}
+[10.860767] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/dds_fastrtps\n'}
+[10.860871] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.860978] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.861723] (robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[10.861850] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[10.861934] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv\n'}
+[10.862052] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail\n'}
+[10.862146] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.862224] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__type_support.cpp\n'}
+[10.862329] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[10.862923] (robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[10.863028] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so\n'}
+[10.863615] (robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[10.863720] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh\n'}
+[10.863856] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv\n'}
+[10.864008] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces-0.0.0-py3.12.egg-info\n'}
+[10.864163] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[10.864297] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[10.864431] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[10.864549] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[10.864724] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces\n'}
+[10.864832] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.864997] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[10.865243] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/srv\n'}
+[10.865353] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/srv/__init__.py\n'}
+[10.865479] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/srv/_create_folder_s.c\n'}
+[10.865621] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/srv/_create_folder.py\n'}
+[10.865772] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/__init__.py\n'}
+[10.865884] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.866034] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.so\n'}
+[10.866295] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[10.866564] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[10.922903] (robot_interfaces) StdoutLine: {'line': b"Listing '/home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces'...\n"}
+[10.923134] (robot_interfaces) StdoutLine: {'line': b"Compiling '/home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/__init__.py'...\n"}
+[10.923222] (robot_interfaces) StdoutLine: {'line': b"Listing '/home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/srv'...\n"}
+[10.923321] (robot_interfaces) StdoutLine: {'line': b"Compiling '/home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/srv/__init__.py'...\n"}
+[10.923424] (robot_interfaces) StdoutLine: {'line': b"Compiling '/home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/srv/_create_folder.py'...\n"}
+[10.936568] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[10.937234] (robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.937612] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[10.938265] (robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.938684] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.so\n'}
+[10.939336] (robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[10.939482] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so\n'}
+[10.940032] (robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so" to ""\n'}
+[10.940179] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/ament_index/resource_index/rust_packages/robot_interfaces\n'}
+[10.940348] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/rust\n'}
+[10.940456] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/rust/src\n'}
+[10.940549] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/rust/src/srv\n'}
+[10.940651] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/rust/src/srv/rmw.rs\n'}
+[10.940747] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/rust/src/lib.rs\n'}
+[10.940867] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/rust/src/srv.rs\n'}
+[10.940987] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/rust/build.rs\n'}
+[10.941105] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/rust/Cargo.toml\n'}
+[10.941271] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/srv/CreateFolder.idl\n'}
+[10.941449] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/srv/CreateFolder.srv\n'}
+[10.941680] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces\n'}
+[10.941903] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces\n'}
+[10.942085] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh\n'}
+[10.942253] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[10.942431] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/environment/path.sh\n'}
+[10.942599] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/environment/path.dsv\n'}
+[10.942917] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/local_setup.bash\n'}
+[10.943103] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/local_setup.sh\n'}
+[10.943292] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/local_setup.zsh\n'}
+[10.943536] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/local_setup.dsv\n'}
+[10.943778] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/package.dsv\n'}
+[10.944073] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces\n'}
+[10.944373] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport.cmake\n'}
+[10.944610] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.944921] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[10.945171] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[10.945421] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.945659] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.945894] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[10.946115] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.946357] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[10.946590] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[10.946797] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[10.947027] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.947234] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.947480] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[10.947694] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.947916] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport.cmake\n'}
+[10.948122] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[10.948383] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[10.948567] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.948780] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.948974] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.949179] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.949400] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.949608] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.949811] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake\n'}
+[10.949980] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake\n'}
+[10.950170] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/package.xml\n'}
+[10.954247] (robot_interfaces) CommandEnded: {'returncode': 0}
+[10.955037] (-) TimerEvent: {}
+[10.980508] (robot_interfaces) JobEnded: {'identifier': 'robot_interfaces', 'rc': 0}
+[10.981703] (rpi_tests) JobStarted: {'identifier': 'rpi_tests'}
+[11.055158] (-) TimerEvent: {}
+[11.155456] (-) TimerEvent: {}
+[11.255732] (-) TimerEvent: {}
+[11.356050] (-) TimerEvent: {}
+[11.456333] (-) TimerEvent: {}
+[11.556589] (-) TimerEvent: {}
+[11.656860] (-) TimerEvent: {}
+[11.757122] (-) TimerEvent: {}
+[11.857374] (-) TimerEvent: {}
+[11.957625] (-) TimerEvent: {}
+[12.016201] (rpi_tests) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/rpi_tests', 'build', '--build-base', '/home/shayan/rpi_ws/build/rpi_tests/build', 'install', '--record', '/home/shayan/rpi_ws/build/rpi_tests/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/shayan/rpi_ws/src/rpi_tests', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shayan', 'SSH_CLIENT': '192.168.1.73 44584 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/shayan/rpi_ws/install/robot_interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/shayan', 'OLDPWD': '/home/shayan/rpi_ws/install', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/shayan/rpi_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shayan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/shayan/rpi_ws/install/bringup:/home/shayan/rpi_ws/install/rpi_tests:/home/shayan/rpi_ws/install/robot_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/shayan/rpi_ws/build/rpi_tests', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.73 44584 192.168.1.77 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shayan/rpi_ws/build/rpi_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shayan/rpi_ws/install/rpi_tests/lib/python3.12/site-packages:/home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages:/home/shayan/rpi_ws/install/rpi_tests/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/shayan/rpi_ws/install/robot_interfaces:/home/shayan/rpi_ws/install/bringup'}, 'shell': False}
+[12.057704] (-) TimerEvent: {}
+[12.157981] (-) TimerEvent: {}
+[12.258253] (-) TimerEvent: {}
+[12.332296] (rpi_tests) StdoutLine: {'line': b'running egg_info\n'}
+[12.332793] (rpi_tests) StdoutLine: {'line': b'creating ../../build/rpi_tests/rpi_tests.egg-info\n'}
+[12.352361] (rpi_tests) StdoutLine: {'line': b'writing ../../build/rpi_tests/rpi_tests.egg-info/PKG-INFO\n'}
+[12.352731] (rpi_tests) StdoutLine: {'line': b'writing dependency_links to ../../build/rpi_tests/rpi_tests.egg-info/dependency_links.txt\n'}
+[12.352954] (rpi_tests) StdoutLine: {'line': b'writing entry points to ../../build/rpi_tests/rpi_tests.egg-info/entry_points.txt\n'}
+[12.353114] (rpi_tests) StdoutLine: {'line': b'writing requirements to ../../build/rpi_tests/rpi_tests.egg-info/requires.txt\n'}
+[12.353221] (rpi_tests) StdoutLine: {'line': b'writing top-level names to ../../build/rpi_tests/rpi_tests.egg-info/top_level.txt\n'}
+[12.353376] (rpi_tests) StdoutLine: {'line': b"writing manifest file '../../build/rpi_tests/rpi_tests.egg-info/SOURCES.txt'\n"}
+[12.358314] (-) TimerEvent: {}
+[12.395206] (rpi_tests) StdoutLine: {'line': b"reading manifest file '../../build/rpi_tests/rpi_tests.egg-info/SOURCES.txt'\n"}
+[12.396061] (rpi_tests) StdoutLine: {'line': b"writing manifest file '../../build/rpi_tests/rpi_tests.egg-info/SOURCES.txt'\n"}
+[12.396244] (rpi_tests) StdoutLine: {'line': b'running build\n'}
+[12.396352] (rpi_tests) StdoutLine: {'line': b'running build_py\n'}
+[12.396522] (rpi_tests) StdoutLine: {'line': b'creating /home/shayan/rpi_ws/build/rpi_tests/build\n'}
+[12.396621] (rpi_tests) StdoutLine: {'line': b'creating /home/shayan/rpi_ws/build/rpi_tests/build/lib\n'}
+[12.396722] (rpi_tests) StdoutLine: {'line': b'creating /home/shayan/rpi_ws/build/rpi_tests/build/lib/rpi_tests\n'}
+[12.396823] (rpi_tests) StdoutLine: {'line': b'copying rpi_tests/create_folder_server.py -> /home/shayan/rpi_ws/build/rpi_tests/build/lib/rpi_tests\n'}
+[12.396984] (rpi_tests) StdoutLine: {'line': b'copying rpi_tests/__init__.py -> /home/shayan/rpi_ws/build/rpi_tests/build/lib/rpi_tests\n'}
+[12.397142] (rpi_tests) StdoutLine: {'line': b'copying rpi_tests/temperature_sensor.py -> /home/shayan/rpi_ws/build/rpi_tests/build/lib/rpi_tests\n'}
+[12.397418] (rpi_tests) StdoutLine: {'line': b'running install\n'}
+[12.406328] (rpi_tests) StdoutLine: {'line': b'running install_lib\n'}
+[12.426765] (rpi_tests) StdoutLine: {'line': b'creating /home/shayan/rpi_ws/install/rpi_tests/lib/python3.12/site-packages/rpi_tests\n'}
+[12.426917] (rpi_tests) StdoutLine: {'line': b'copying /home/shayan/rpi_ws/build/rpi_tests/build/lib/rpi_tests/create_folder_server.py -> /home/shayan/rpi_ws/install/rpi_tests/lib/python3.12/site-packages/rpi_tests\n'}
+[12.427098] (rpi_tests) StdoutLine: {'line': b'copying /home/shayan/rpi_ws/build/rpi_tests/build/lib/rpi_tests/__init__.py -> /home/shayan/rpi_ws/install/rpi_tests/lib/python3.12/site-packages/rpi_tests\n'}
+[12.427249] (rpi_tests) StdoutLine: {'line': b'copying /home/shayan/rpi_ws/build/rpi_tests/build/lib/rpi_tests/temperature_sensor.py -> /home/shayan/rpi_ws/install/rpi_tests/lib/python3.12/site-packages/rpi_tests\n'}
+[12.427955] (rpi_tests) StdoutLine: {'line': b'byte-compiling /home/shayan/rpi_ws/install/rpi_tests/lib/python3.12/site-packages/rpi_tests/create_folder_server.py to create_folder_server.cpython-312.pyc\n'}
+[12.428727] (rpi_tests) StdoutLine: {'line': b'byte-compiling /home/shayan/rpi_ws/install/rpi_tests/lib/python3.12/site-packages/rpi_tests/__init__.py to __init__.cpython-312.pyc\n'}
+[12.428970] (rpi_tests) StdoutLine: {'line': b'byte-compiling /home/shayan/rpi_ws/install/rpi_tests/lib/python3.12/site-packages/rpi_tests/temperature_sensor.py to temperature_sensor.cpython-312.pyc\n'}
+[12.429485] (rpi_tests) StdoutLine: {'line': b'running install_data\n'}
+[12.429612] (rpi_tests) StdoutLine: {'line': b'creating /home/shayan/rpi_ws/install/rpi_tests/share/ament_index\n'}
+[12.429703] (rpi_tests) StdoutLine: {'line': b'creating /home/shayan/rpi_ws/install/rpi_tests/share/ament_index/resource_index\n'}
+[12.429805] (rpi_tests) StdoutLine: {'line': b'creating /home/shayan/rpi_ws/install/rpi_tests/share/ament_index/resource_index/packages\n'}
+[12.429898] (rpi_tests) StdoutLine: {'line': b'copying resource/rpi_tests -> /home/shayan/rpi_ws/install/rpi_tests/share/ament_index/resource_index/packages\n'}
+[12.430002] (rpi_tests) StdoutLine: {'line': b'copying package.xml -> /home/shayan/rpi_ws/install/rpi_tests/share/rpi_tests\n'}
+[12.430121] (rpi_tests) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.452319] (rpi_tests) StdoutLine: {'line': b'Copying ../../build/rpi_tests/rpi_tests.egg-info to /home/shayan/rpi_ws/install/rpi_tests/lib/python3.12/site-packages/rpi_tests-0.0.0-py3.12.egg-info\n'}
+[12.453492] (rpi_tests) StdoutLine: {'line': b'running install_scripts\n'}
+[12.458382] (-) TimerEvent: {}
+[12.558574] (-) TimerEvent: {}
+[12.602176] (rpi_tests) StdoutLine: {'line': b'Installing create_folder_server script to /home/shayan/rpi_ws/install/rpi_tests/lib/rpi_tests\n'}
+[12.602424] (rpi_tests) StdoutLine: {'line': b'Installing temperature_sensor script to /home/shayan/rpi_ws/install/rpi_tests/lib/rpi_tests\n'}
+[12.602826] (rpi_tests) StdoutLine: {'line': b"writing list of installed files to '/home/shayan/rpi_ws/build/rpi_tests/install.log'\n"}
+[12.658663] (-) TimerEvent: {}
+[12.676741] (rpi_tests) CommandEnded: {'returncode': 0}
+[12.683975] (rpi_tests) JobEnded: {'identifier': 'rpi_tests', 'rc': 0}
+[12.685058] (-) EventReactorShutdown: {}

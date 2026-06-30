@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "robot_interfaces/srv/CreateFolder_Request",
+      "fields": [
+        {
+          "name": "folder_name",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "robot_interfaces/srv/CreateFolder_Request",
+      "hash_string": "RIHS01_e5f0babb05b94d35baa6fa89fa25e84a5c076ea377e6af8978647b75ff9e8730"
+    }
+  ]
+}

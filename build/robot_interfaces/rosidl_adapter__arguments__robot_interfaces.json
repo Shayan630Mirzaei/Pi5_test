@@ -1,0 +1,6 @@
+{
+  "package_name": "robot_interfaces",
+  "non_idl_tuples": [
+    "/home/shayan/rpi_ws/src/robot_interfaces:srv/CreateFolder.srv"
+  ]
+}

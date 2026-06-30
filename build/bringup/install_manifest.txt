@@ -1,0 +1,16 @@
+/home/shayan/rpi_ws/install/bringup/share/bringup/launch/test_bringup.launch.xml
+/home/shayan/rpi_ws/install/bringup/share/ament_index/resource_index/package_run_dependencies/bringup
+/home/shayan/rpi_ws/install/bringup/share/ament_index/resource_index/parent_prefix_path/bringup
+/home/shayan/rpi_ws/install/bringup/share/bringup/environment/ament_prefix_path.sh
+/home/shayan/rpi_ws/install/bringup/share/bringup/environment/ament_prefix_path.dsv
+/home/shayan/rpi_ws/install/bringup/share/bringup/environment/path.sh
+/home/shayan/rpi_ws/install/bringup/share/bringup/environment/path.dsv
+/home/shayan/rpi_ws/install/bringup/share/bringup/local_setup.bash
+/home/shayan/rpi_ws/install/bringup/share/bringup/local_setup.sh
+/home/shayan/rpi_ws/install/bringup/share/bringup/local_setup.zsh
+/home/shayan/rpi_ws/install/bringup/share/bringup/local_setup.dsv
+/home/shayan/rpi_ws/install/bringup/share/bringup/package.dsv
+/home/shayan/rpi_ws/install/bringup/share/ament_index/resource_index/packages/bringup
+/home/shayan/rpi_ws/install/bringup/share/bringup/cmake/bringupConfig.cmake
+/home/shayan/rpi_ws/install/bringup/share/bringup/cmake/bringupConfig-version.cmake
+/home/shayan/rpi_ws/install/bringup/share/bringup/package.xml

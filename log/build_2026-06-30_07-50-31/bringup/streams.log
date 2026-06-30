@@ -1,0 +1,41 @@
+[0.013s] Invoking command in '/home/shayan/rpi_ws/build/bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shayan/rpi_ws/install/rpi_tests:/opt/ros/jazzy /usr/bin/cmake /home/shayan/rpi_ws/src/bringup -DCMAKE_INSTALL_PREFIX=/home/shayan/rpi_ws/install/bringup
+[0.117s] -- The C compiler identification is GNU 13.3.0
+[0.228s] -- The CXX compiler identification is GNU 13.3.0
+[0.254s] -- Detecting C compiler ABI info
+[0.417s] -- Detecting C compiler ABI info - done
+[0.432s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.432s] -- Detecting C compile features
+[0.433s] -- Detecting C compile features - done
+[0.446s] -- Detecting CXX compiler ABI info
+[0.628s] -- Detecting CXX compiler ABI info - done
+[0.644s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.644s] -- Detecting CXX compile features
+[0.645s] -- Detecting CXX compile features - done
+[0.648s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.881s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.223s] -- Configuring done (1.2s)
+[1.230s] -- Generating done (0.0s)
+[1.235s] -- Build files have been written to: /home/shayan/rpi_ws/build/bringup
+[1.255s] Invoked command in '/home/shayan/rpi_ws/build/bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shayan/rpi_ws/install/rpi_tests:/opt/ros/jazzy /usr/bin/cmake /home/shayan/rpi_ws/src/bringup -DCMAKE_INSTALL_PREFIX=/home/shayan/rpi_ws/install/bringup
+[1.255s] Invoking command in '/home/shayan/rpi_ws/build/bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shayan/rpi_ws/install/rpi_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/shayan/rpi_ws/build/bringup -- -j4 -l4
+[1.354s] Invoked command in '/home/shayan/rpi_ws/build/bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shayan/rpi_ws/install/rpi_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/shayan/rpi_ws/build/bringup -- -j4 -l4
+[1.378s] Invoking command in '/home/shayan/rpi_ws/build/bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shayan/rpi_ws/install/rpi_tests:/opt/ros/jazzy /usr/bin/cmake --install /home/shayan/rpi_ws/build/bringup
+[1.395s] -- Install configuration: ""
+[1.396s] -- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/launch
+[1.396s] -- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/launch/test_bringup.launch.xml
+[1.398s] -- Installing: /home/shayan/rpi_ws/install/bringup/share/ament_index/resource_index/package_run_dependencies/bringup
+[1.400s] -- Installing: /home/shayan/rpi_ws/install/bringup/share/ament_index/resource_index/parent_prefix_path/bringup
+[1.400s] -- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/environment/ament_prefix_path.sh
+[1.401s] -- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/environment/ament_prefix_path.dsv
+[1.402s] -- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/environment/path.sh
+[1.403s] -- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/environment/path.dsv
+[1.404s] -- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/local_setup.bash
+[1.404s] -- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/local_setup.sh
+[1.405s] -- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/local_setup.zsh
+[1.406s] -- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/local_setup.dsv
+[1.406s] -- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/package.dsv
+[1.407s] -- Installing: /home/shayan/rpi_ws/install/bringup/share/ament_index/resource_index/packages/bringup
+[1.408s] -- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/cmake/bringupConfig.cmake
+[1.408s] -- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/cmake/bringupConfig-version.cmake
+[1.409s] -- Installing: /home/shayan/rpi_ws/install/bringup/share/bringup/package.xml
+[1.413s] Invoked command in '/home/shayan/rpi_ws/build/bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shayan/rpi_ws/install/rpi_tests:/opt/ros/jazzy /usr/bin/cmake --install /home/shayan/rpi_ws/build/bringup

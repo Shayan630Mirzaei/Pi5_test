@@ -1,0 +1,3 @@
+[console_scripts]
+create_folder_server = rpi_tests.create_folder_server:main
+temperature_sensor = rpi_tests.temperature_sensor:main

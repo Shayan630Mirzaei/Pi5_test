@@ -1,0 +1,243 @@
+[0.014s] Invoking command in '/home/shayan/rpi_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shayan/rpi_ws/install/rpi_tests:/opt/ros/jazzy /usr/bin/cmake /home/shayan/rpi_ws/src/robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/shayan/rpi_ws/install/robot_interfaces
+[0.121s] -- The C compiler identification is GNU 13.3.0
+[0.231s] -- The CXX compiler identification is GNU 13.3.0
+[0.258s] -- Detecting C compiler ABI info
+[0.423s] -- Detecting C compiler ABI info - done
+[0.438s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.438s] -- Detecting C compile features
+[0.439s] -- Detecting C compile features - done
+[0.452s] -- Detecting CXX compiler ABI info
+[0.635s] -- Detecting CXX compiler ABI info - done
+[0.650s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.650s] -- Detecting CXX compile features
+[0.651s] -- Detecting CXX compile features - done
+[0.654s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.888s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.053s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.060s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.116s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.184s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.535s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.287s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.362s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.365s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.564s] -- Found PythonExtra: /usr/bin/python3  
+[5.238s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.330s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.341s] -- Configuring done (5.3s)
+[5.389s] -- Generating done (0.0s)
+[5.406s] -- Build files have been written to: /home/shayan/rpi_ws/build/robot_interfaces
+[5.418s] Invoked command in '/home/shayan/rpi_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shayan/rpi_ws/install/rpi_tests:/opt/ros/jazzy /usr/bin/cmake /home/shayan/rpi_ws/src/robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/shayan/rpi_ws/install/robot_interfaces
+[5.420s] Invoking command in '/home/shayan/rpi_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shayan/rpi_ws/install/rpi_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/shayan/rpi_ws/build/robot_interfaces -- -j4 -l4
+[5.504s] [  5%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[5.504s] [  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[5.518s] [  5%] Built target ament_cmake_python_copy_robot_interfaces
+[5.829s] [  5%] Built target robot_interfaces__rosidl_generator_type_description
+[5.850s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.850s] running egg_info
+[5.852s] creating robot_interfaces.egg-info
+[5.873s] [ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.886s] writing robot_interfaces.egg-info/PKG-INFO
+[5.887s] writing dependency_links to robot_interfaces.egg-info/dependency_links.txt
+[5.890s] writing top-level names to robot_interfaces.egg-info/top_level.txt
+[5.890s] writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[5.929s] [ 11%] Built target robot_interfaces__rs
+[5.973s] reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[5.974s] writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[6.068s] [ 11%] Built target ament_cmake_python_build_robot_interfaces_egg
+[6.331s] [ 11%] Built target robot_interfaces__cpp
+[6.373s] [ 20%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/create_folder__description.c.o[0m
+[6.373s] [ 20%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/create_folder__type_support.c.o[0m
+[6.374s] [ 20%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/create_folder__functions.c.o[0m
+[6.496s] [ 22%] [32m[1mLinking C shared library librobot_interfaces__rosidl_generator_c.so[0m
+[6.562s] [ 22%] Built target robot_interfaces__rosidl_generator_c
+[6.583s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.583s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.585s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.585s] [ 34%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.051s] [ 37%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/srv/create_folder__type_support.cpp.o[0m
+[7.109s] [ 40%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/create_folder__type_support.cpp.o[0m
+[7.122s] [ 42%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/srv/detail/create_folder__type_support.c.o[0m
+[7.211s] [ 45%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/srv/detail/create_folder__type_support_c.cpp.o[0m
+[7.260s] [ 48%] [32m[1mLinking C shared library librobot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[7.326s] [ 48%] Built target robot_interfaces__rosidl_typesupport_introspection_c
+[7.347s] [ 51%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.895s] [ 54%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/srv/create_folder__type_support.cpp.o[0m
+[7.954s] [ 57%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_cpp.so[0m
+[7.998s] [ 60%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_c.so[0m
+[8.092s] [ 62%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[8.116s] [ 62%] Built target robot_interfaces__rosidl_typesupport_c
+[8.134s] [ 65%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.191s] [ 65%] Built target robot_interfaces__rosidl_typesupport_cpp
+[8.283s] [ 65%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp
+[8.395s] [ 68%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[8.550s] [ 68%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c
+[8.634s] [ 71%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/srv/detail/dds_fastrtps/create_folder__type_support.cpp.o[0m
+[9.479s] [ 74%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.626s] [ 74%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[9.660s] [ 74%] Built target robot_interfaces
+[9.694s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.191s] [ 77%] Built target robot_interfaces__py
+[10.225s] [ 80%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_create_folder_s.c.o[0m
+[10.449s] [ 82%] [32m[1mLinking C shared library librobot_interfaces__rosidl_generator_py.so[0m
+[10.524s] [ 82%] Built target robot_interfaces__rosidl_generator_py
+[10.558s] [ 91%] [32mBuilding C object CMakeFiles/robot_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.558s] [ 91%] [32mBuilding C object CMakeFiles/robot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.558s] [ 91%] [32mBuilding C object CMakeFiles/robot_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[10.748s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.so[0m
+[10.748s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[10.755s] [100%] [32m[1mLinking C shared module rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[10.803s] [100%] Built target robot_interfaces_s__rosidl_typesupport_introspection_c
+[10.805s] [100%] Built target robot_interfaces_s__rosidl_typesupport_c
+[10.815s] [100%] Built target robot_interfaces_s__rosidl_typesupport_fastrtps_c
+[10.835s] Invoked command in '/home/shayan/rpi_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shayan/rpi_ws/install/rpi_tests:/opt/ros/jazzy /usr/bin/cmake --build /home/shayan/rpi_ws/build/robot_interfaces -- -j4 -l4
+[10.837s] Invoking command in '/home/shayan/rpi_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shayan/rpi_ws/install/rpi_tests:/opt/ros/jazzy /usr/bin/cmake --install /home/shayan/rpi_ws/build/robot_interfaces
+[10.852s] -- Install configuration: ""
+[10.852s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces
+[10.852s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/srv/CreateFolder.json
+[10.852s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[10.852s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[10.853s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[10.853s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[10.853s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[10.853s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__type_support.c
+[10.853s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__description.c
+[10.853s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__functions.c
+[10.853s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__struct.h
+[10.854s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__type_support.h
+[10.854s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__functions.h
+[10.854s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/create_folder.h
+[10.854s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh
+[10.854s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv
+[10.855s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so
+[10.855s] -- Set non-toolchain portion of runtime path of "/home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so" to ""
+[10.855s] -- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[10.855s] -- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[10.856s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.856s] -- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[10.856s] -- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[10.856s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__rosidl_typesupport_fastrtps_c.h
+[10.856s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so
+[10.856s] -- Set non-toolchain portion of runtime path of "/home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[10.857s] -- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[10.857s] -- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[10.857s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.857s] -- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[10.857s] -- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[10.857s] -- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__type_support.c
+[10.857s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__rosidl_typesupport_introspection_c.h
+[10.857s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so
+[10.858s] -- Set non-toolchain portion of runtime path of "/home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[10.858s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so
+[10.858s] -- Set non-toolchain portion of runtime path of "/home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so" to ""
+[10.858s] -- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[10.858s] -- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[10.859s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.859s] -- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[10.859s] -- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[10.859s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__traits.hpp
+[10.859s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__type_support.hpp
+[10.859s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__builder.hpp
+[10.859s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__struct.hpp
+[10.859s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/create_folder.hpp
+[10.859s] -- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[10.859s] -- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[10.860s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.860s] -- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[10.860s] -- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[10.860s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/dds_fastrtps
+[10.860s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__rosidl_typesupport_fastrtps_cpp.hpp
+[10.860s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[10.861s] -- Set non-toolchain portion of runtime path of "/home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.861s] -- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[10.861s] -- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv
+[10.861s] -- Up-to-date: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail
+[10.861s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__rosidl_typesupport_introspection_cpp.hpp
+[10.861s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/create_folder__type_support.cpp
+[10.861s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so
+[10.862s] -- Set non-toolchain portion of runtime path of "/home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[10.862s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so
+[10.863s] -- Set non-toolchain portion of runtime path of "/home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so" to ""
+[10.863s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh
+[10.863s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv
+[10.863s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces-0.0.0-py3.12.egg-info
+[10.863s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[10.863s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[10.864s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[10.864s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[10.864s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces
+[10.864s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[10.864s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[10.864s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/srv
+[10.864s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/srv/__init__.py
+[10.865s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/srv/_create_folder_s.c
+[10.865s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/srv/_create_folder.py
+[10.865s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/__init__.py
+[10.865s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.865s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.so
+[10.865s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.so
+[10.866s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[10.922s] Listing '/home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces'...
+[10.922s] Compiling '/home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/__init__.py'...
+[10.922s] Listing '/home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/srv'...
+[10.922s] Compiling '/home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/srv/__init__.py'...
+[10.923s] Compiling '/home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/srv/_create_folder.py'...
+[10.936s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[10.936s] -- Set non-toolchain portion of runtime path of "/home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[10.937s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.so
+[10.937s] -- Set non-toolchain portion of runtime path of "/home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[10.938s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.so
+[10.938s] -- Set non-toolchain portion of runtime path of "/home/shayan/rpi_ws/install/robot_interfaces/lib/python3.12/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.so" to ""
+[10.939s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so
+[10.939s] -- Set non-toolchain portion of runtime path of "/home/shayan/rpi_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so" to ""
+[10.939s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/ament_index/resource_index/rust_packages/robot_interfaces
+[10.939s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/rust
+[10.940s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/rust/src
+[10.940s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/rust/src/srv
+[10.940s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/rust/src/srv/rmw.rs
+[10.940s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/rust/src/lib.rs
+[10.940s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/rust/src/srv.rs
+[10.940s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/rust/build.rs
+[10.940s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/rust/Cargo.toml
+[10.940s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/srv/CreateFolder.idl
+[10.941s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/srv/CreateFolder.srv
+[10.941s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces
+[10.941s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces
+[10.941s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh
+[10.941s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv
+[10.942s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/environment/path.sh
+[10.942s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/environment/path.dsv
+[10.942s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/local_setup.bash
+[10.942s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/local_setup.sh
+[10.942s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/local_setup.zsh
+[10.943s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/local_setup.dsv
+[10.943s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/package.dsv
+[10.943s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces
+[10.943s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport.cmake
+[10.944s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[10.944s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[10.944s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.945s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[10.945s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.945s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport.cmake
+[10.945s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[10.945s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cppExport.cmake
+[10.946s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.946s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.946s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[10.946s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.947s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport.cmake
+[10.947s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[10.947s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport.cmake
+[10.947s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[10.947s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[10.948s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.948s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.948s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[10.948s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[10.949s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.949s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.949s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake
+[10.949s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake
+[10.949s] -- Installing: /home/shayan/rpi_ws/install/robot_interfaces/share/robot_interfaces/package.xml
+[10.954s] Invoked command in '/home/shayan/rpi_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shayan/rpi_ws/install/rpi_tests:/opt/ros/jazzy /usr/bin/cmake --install /home/shayan/rpi_ws/build/robot_interfaces
