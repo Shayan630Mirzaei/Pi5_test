@@ -81,26 +81,18 @@ void loop() {
   }
 
 }
-```
 
-## Requirements
-
-- An Arduino board (Uno, Nano, or similar) flashed with `arduino_serial.ino`
-- A Raspberry Pi (or any Linux machine) with Python 3 and `pyserial` installed:
-  ```bash
-  pip install pyserial
-  ```
-- The Arduino connected via USB, appearing as `/dev/ttyACM0` (adjust the port name in the script if yours differs, e.g. `/dev/ttyUSB0`)
 
 ## How to run
 
-1. Upload `arduino_serial.ino` to the Arduino using the Arduino IDE.
-2. Connect the Arduino to the Pi via USB.
-3. Run the Python script:
+1. The Arduino connected via USB, appearing as `/dev/ttyACM0` (adjust the port name in the script if yours differs, e.g. `/dev/ttyUSB0`)
+2. Upload `arduino_serial.ino` to the Arduino using the Arduino IDE.
+3. Connect the Arduino to the Pi via USB.
+4. Run the Python script:
    ```bash
    python3 pi_serial.py
    ```
-4. Press `Ctrl+C` to stop — the script closes the serial port cleanly on exit.
+5. Press `Ctrl+C` to stop — the script closes the serial port cleanly on exit.
 
 ## Code Walkthrough
 
@@ -191,9 +183,3 @@ if(timeNow - lastTimeMessageSent >= 3000){
 - The port `/dev/ttyACM0` is hardcoded; if another USB serial device is connected first, the Arduino may enumerate as `/dev/ttyACM1` instead.
 - The Arduino's "massage sent every 3 seconds" message also has a typo (should be "message").
 
-## Possible Next Steps
-
-- Fix the typos above.
-- Replace the hardcoded port with automatic port detection.
-- Extend the protocol to parse structured commands (e.g. motor speed values) instead of just echoing text.
-- Add checksums or message framing for more robust communication at higher speeds.
