@@ -197,3 +197,29 @@ if(timeNow - lastTimeMessageSent >= 3000){
 | Serial (shared with digital 0/1) | RX (0), TX (1) | Used for `Serial` communication — the same pins your USB serial monitor talks through. Avoid using these as regular I/O if you're also using `Serial`. |
 | I2C (shared with A4/A5) | SDA (A4), SCL (A5) | Two-wire communication protocol for connecting sensors, displays, and other I2C devices. |
 | Power out | 5V, 3.3V | Supply voltage for external
+
+
+
+
+
+## Pin name equivalents
+
+| Physical pin | Also known as | Used for |
+|---|---|---|
+| Digital 0 | `RX`, `RX0` | Serial receive |
+| Digital 1 | `TX`, `TX0` | Serial transmit |
+| Digital 2 | `INT0` | External interrupt 0 |
+| Digital 3 | `INT1`, `~3` (PWM) | External interrupt 1 / PWM |
+| Digital 5 | `~5` (PWM) | PWM output |
+| Digital 6 | `~6` (PWM) | PWM output |
+| Digital 9 | `~9` (PWM) | PWM output |
+| Digital 10 | `~10` (PWM), `SS` | PWM output / SPI Slave Select |
+| Digital 11 | `~11` (PWM), `MOSI` | PWM output / SPI Master Out |
+| Digital 12 | `MISO` | SPI Master In |
+| Digital 13 | `SCK`, `LED_BUILTIN` | SPI Clock / onboard LED |
+| Analog A0 | Digital `14` | Analog input / can be used as digital pin |
+| Analog A1 | Digital `15` | Analog input / can be used as digital pin |
+| Analog A2 | Digital `16` | Analog input / can be used as digital pin |
+| Analog A3 | Digital `17` | Analog input / can be used as digital pin |
+| Analog A4 | Digital `18`, `SDA` | Analog input / I2C data line |
+| Analog A5 | Digital `19`, `SCL` | Analog input / I2C clock line |
