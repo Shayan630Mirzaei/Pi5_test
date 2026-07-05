@@ -183,3 +183,17 @@ if(timeNow - lastTimeMessageSent >= 3000){
 - The port `/dev/ttyACM0` is hardcoded; if another USB serial device is connected first, the Arduino may enumerate as `/dev/ttyACM1` instead.
 - The Arduino's "massage sent every 3 seconds" message also has a typo (should be "message").
 
+
+
+
+
+## Arduino Uno pin reference
+
+| Pin group | Labels | Purpose |
+|---|---|---|
+| Digital I/O | 0–13 | General on/off signals — `HIGH`/`LOW` only. Set with `pinMode()` + `digitalWrite()` / `digitalRead()`. |
+| PWM (subset of digital) | 3, 5, 6, 9, 10, 11 (marked `~`) | Simulate an analog voltage by rapidly switching on/off. Used with `analogWrite(pin, 0-255)` for dimming LEDs, motor speed, etc. |
+| Analog input | A0–A5 | Read a continuous voltage (0–5V) as a number 0–1023, via `analogRead()`. Used for sensors like potentiometers, light sensors, thermistors. |
+| Serial (shared with digital 0/1) | RX (0), TX (1) | Used for `Serial` communication — the same pins your USB serial monitor talks through. Avoid using these as regular I/O if you're also using `Serial`. |
+| I2C (shared with A4/A5) | SDA (A4), SCL (A5) | Two-wire communication protocol for connecting sensors, displays, and other I2C devices. |
+| Power out | 5V, 3.3V | Supply voltage for external
