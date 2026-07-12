@@ -24,7 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            "servo_control=rpi_arduino_servo_control.servo_control:main"
+            "servo_control=rpi_arduino_servo_control.servo_control:main",
+            "servo_control_joystick=rpi_arduino_servo_control.servo_control_joystick:main"
         ],
     },
 )
